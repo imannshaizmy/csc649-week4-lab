@@ -40,8 +40,8 @@ Weighted score = weight x score. Add them up for each option.
 - **Context:** My FYP is a web-based insulin decision-support system using meal image analysis and fuzzy logic. The system needs to recognise selected food items, estimate carbohydrate content, and provide fuzzy-logic-based decision support. I have limited development time, student-level programming skills, and a limited budget.
 - **Decision:** Python Flask + TensorFlow/Keras + scikit-fuzzy + SQLite
 - **Reasons:** 
-1. Python supports the integration of meal image recognition, carbohydrate estimation, and fuzzy logic in one application, meeting my functional requirements.
-2. Flask and SQLite are relatively lightweight, making the system easier to develop and test within my project deadline.
-3. The required Python libraries are available for use without a paid license, supporting my cost requirements.
+    1. Python supports the integration of meal image recognition, carbohydrate estimation, and fuzzy logic in one application, meeting my functional requirements.
+    2. Flask and SQLite are relatively lightweight, making the system easier to develop and test within my project deadline.
+    3. The required Python libraries are available for use without a paid license, supporting my cost requirements.
 - **Consequences:** It will be easier to connect the image recognition, nutrition database, and fuzzy logic modules using Python. However, I will need to integrate and test each module carefully, and deploying the image recognition model may require additional configuration.
 - **Risks and next review:** Image recognition may misidentify food items, causing inaccurate carbohydrate estimates and potentially misleading decision-support results. I will test the system using selected food images ans review its functionality and accuracy during development. If the model or hosting requirements are too difficult to manage, I will reconsider the implementation approach with my supervisor. The system will be an academic prototype, not a substitute for professional medical advice.
